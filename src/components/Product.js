@@ -46,7 +46,6 @@ export default class Product extends Component {
   }
 }
 
-console.log(Component);
 
 Product.propTypes = {
   product: PropTypes.shape({
