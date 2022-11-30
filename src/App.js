@@ -7,6 +7,7 @@ import Cart from './components/Cart';
 import Default from './components/Default';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Modal from './components/Modal';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<Default />} />
           </Routes>
+          <Modal />
         </>
   );
   }
