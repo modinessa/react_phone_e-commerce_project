@@ -10,7 +10,7 @@ export default function CartItem({ item, value}) {
     <div className="row my-5 text-capitalize text-center">
         <div className="col-10 mx-auto col-lg-2">
             <img src={img}
-                alt="product image"
+                alt="product"
                 style={{width:'5rem', height:'5rem'}}
                 className="img-fluid"
             />
